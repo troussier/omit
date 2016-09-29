@@ -1,1 +1,1 @@
-# omit
+# omit文字列をトリミングする jQuery プラグインです。## Usage### トリミング```$('.omit').on('click', function() {    $(this).omit({        count: 25    });});```### もとに戻します。```$('.omit').on('click', function() {    $(this).omit({        clear: true    });});```
